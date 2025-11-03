@@ -127,7 +127,7 @@ a{
     height: 100vh;
     padding: 60px 9% 0;
     color: white;
-    background-image: url(bg/bg.png);
+    background-image: url(bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -208,7 +208,7 @@ a{
 /* About Section */
 .about {
     background-color: rgb(26, 40, 72); 
-    background-image: url(bg/bg.jpg);
+    background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -573,3 +573,4 @@ button:hover {
         font-size: 13px;
     }
 }
+
