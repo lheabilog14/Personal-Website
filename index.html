@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <a href="#home" class="logo"><span>L</span>hea.</a>
+
+            <!-- Hidden checkbox for toggle -->
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, I am <span>Lhea</span></h1>
+                <h2>I'm an aspiring Web Developer</h2>
+                <p>Explore this portfolio to know more about myself and my works.</p>
+                <div class="btn-links">
+                    <a href="#about" class="btn">Know More</a>
+                    <div class="social-links">
+                        <a href="https://github.com/lheabilog14" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/lhealomeriobilog" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/eaweeee?igsh=MWFlejdzejI4Y3Q1cw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-content">
+                <h1>About Me</h1>
+                <h2>Background</h2>
+                <p>
+                    Lhea L. Bilog is a third-year Bachelor of Science in Information Technology (BSIT) student at the Polytechnic University of the Philippines, Calauan Campus. 
+                    She is passionate about learning and exploring new things, particularly in the field of technology. 
+                    She enjoys coding, especially solving backend challenges, but after discovering the world of web design, she aspires to become a skilled web developer. 
+                    Aside from coding, she also finds joy in editing photos and expressing her creativity through digital design.
+                </p>
+                <div class="grid-item">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>C & C#</li>
+                        <li>PYTHON</li>
+                        <li>Photo Editing</li>
+                    </ul>
+                </div>
+                                
+                <div class="grid-item">
+                    <h3>Interest</h3>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Programming</li>
+                        <li>Graphic Design</li>
+                        <li>Photography</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="projects-content">
+                <h1>My Projects</h1>  
+                <div class="card-wrapper">
+
+                    <div class="custom-card">
+                        <img src="poster.jpg" class="card-img-top" alt="work3">
+                        <div class="card-body">
+                            <h3 class="card-title">Multimedia Photo Editing using Adobe or Canva</h3>
+                            <p class="card-text">Description: Edit photo by applying knowledge learned in Adobe Photoshop</p>
+                            <a rel="noreferrer" href="Poster/poster.pdf" target="_blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+
+                    <div class="custom-card">
+                        <img src="funeral_act.png" class="card-img-top" alt="work1">
+                        <div class="card-body">
+                            <h3 class="card-title">Everlasting Funeral Service Web Page Mock Up</h3>
+                            <p class="card-text">Description: Web Page Mock Up for Funeral Services</p>
+                            <a rel="noreferrer" href="MockLayout/Funeral-Service.pdf" target="_blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+
+                    <div class="custom-card">
+                        <img src="pokedex.png" class="card-img-top" alt="work2">
+                        <div class="card-body">
+                            <h3 class="card-title">CRUD-based Pokedex API</h3>
+                            <p class="card-text">Description: The Pokédex API is a CRUD-based web API developed using ASP.NET Core MVC and 
+Entity Framework Core.</p>
+                            <a rel="noreferrer" href="IntegProj/InteFinals.pdf" target="_blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                    
+                    <div class="custom-card">
+                        <img src="jackenpoy.png" class="card-img-top" alt="work3">
+                        <div class="card-body">
+                            <h3 class="card-title">JACKENPOY using C Programming Languange</h3>
+                            <p class="card-text">Description: Group Project for Midterm in Programming 2</p>
+                            <a rel="noreferrer" href="jackenpoy/JACKENPOY(2).cxx" target="_blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+
+                    <div class="custom-card">
+                        <img src="guessinggame.png" class="card-img-top" alt="work3">
+                        <div class="card-body">
+                            <h3 class="card-title">GUESSING GAME using C Programming Languange</h3>
+                            <p class="card-text">Description: Group Project for Miderterm in Programming 2</p>
+                            <a rel="noreferrer" href="guessinggame/GUESSINGGAME(2).cxx" target="_blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+
+                    <div class="custom-card">
+                        <img src="image.png" class="card-img-top" alt="work3">
+                        <div class="card-body">
+                            <h3 class="card-title">Compilation of C & Python Programs</h3>
+                            <p class="card-text">Description: Group Project for Finals in Programming 2</p>
+                            <a rel="noreferrer" href="finalscode/final-project-g2-2.pdf" target="_blank" class="btn btn-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <h1>Contact Me</h1>
+                <div class="contact-wrapper">
+                    <div class="contact-form">
+                        <h3>Send me a message</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="message">Your Message</textarea>
+                            </div>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><i class="fas fa-envelope-square"></i>lheabilog14@gmail.com</p>
+                        <p><a href="https://www.facebook.com/lhealomeriobilog" target="_blank"><i class="fa-brands fa-facebook"></i>Lhea Lomerio Bilog</a></p>
+                        <p><i class="fas fa-phone"></i>09954003878</p>
+                        <p><a href="https://www.instagram.com/eaweeee?igsh=MWFlejdzejI4Y3Q1cw==" target="_blank"><i class="fa-brands fa-instagram"></i>@eaweeee</a></p>
+                    </div> 
+                </div>       
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="social-links">
+                        <a href="https://github.com/lheabilog14" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/lhealomeriobilog" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/eaweeee?igsh=MWFlejdzejI4Y3Q1cw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p>© 2025 Lhea Bilog. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
